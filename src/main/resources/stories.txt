@@ -1,0 +1,9 @@
+transfer money between user accounts
+
+user is able to transfer money between his/her accounts
+
+Makena tranfers 500 from her current account to a saving account
+
+given makena has 1500 in her current account and has 2500 in her saving account.
+when she transfers 700 from her current account to her saving account.
+then she should have 800 in her current account and 3200 in her saving account
