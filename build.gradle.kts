@@ -27,8 +27,14 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
     // https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-starter-webmvc-ui
     implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.2.0")
+    // https://mvnrepository.com/artifact/org.mapstruct/mapstruct
+    implementation("org.mapstruct:mapstruct:1.5.5.Final")
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-hateoas
+    implementation("org.springframework.boot:spring-boot-starter-hateoas:3.1.4")
     // https://mvnrepository.com/artifact/org.modelmapper/modelmapper
     implementation("org.modelmapper:modelmapper:3.1.1")
+    // https://mvnrepository.com/artifact/com.mysql/mysql-connector-j
+    implementation("com.mysql:mysql-connector-j:8.1.0")
     compileOnly("org.projectlombok:lombok")
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     runtimeOnly("com.mysql:mysql-connector-j")
