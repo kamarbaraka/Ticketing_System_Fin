@@ -5,7 +5,6 @@ import com.kamar.ticketing_system_fin.ticket.entity.Tasks;
 import com.kamar.ticketing_system_fin.ticket.exceptions.TaskNotFoundException;
 import com.kamar.ticketing_system_fin.ticket.repository.TasksRepository;
 import com.kamar.ticketing_system_fin.ticket.service.TaskService;
-import com.kamar.ticketing_system_fin.ticket.service.utilities.TaskMapper;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.modelmapper.ModelMapper;
@@ -22,7 +21,6 @@ import org.springframework.validation.annotation.Validated;
 public class TaskServiceImpl implements TaskService {
 
     private final TasksRepository tasksRepository;
-    private final TaskMapper taskMapper;
     private final ModelMapper mapper;
 
     /**
@@ -44,13 +42,13 @@ public class TaskServiceImpl implements TaskService {
     @Override
     public void updateTaskById(final long taskId,  TaskDTO taskDTO) {
 
-        /*check if the task exists*/
+        /*check if the task exists*//*
         Tasks savedTask = tasksRepository.findById(taskId).orElseThrow(() -> new TaskNotFoundException("no such task"));
-        /*convert DTO to task*/
+        *//*convert DTO to task*//*
         Tasks task = taskMapper.mapToTask(taskDTO);
         task.setTaskId(savedTask.getTaskId());
-        /*update the task*/
-        tasksRepository.save(task);
+        *//*update the task*//*
+        tasksRepository.save(task);*/
     }
 
     @Override

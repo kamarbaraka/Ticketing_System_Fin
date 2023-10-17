@@ -10,7 +10,6 @@ import com.kamar.ticketing_system_fin.ticket.exceptions.TaskExceptionService;
 import com.kamar.ticketing_system_fin.ticket.repository.TicketsRepository;
 import com.kamar.ticketing_system_fin.ticket.service.TaskService;
 import com.kamar.ticketing_system_fin.ticket.service.TicketService;
-import com.kamar.ticketing_system_fin.ticket.service.utilities.TicketMapper;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.data.domain.Sort;
@@ -19,7 +18,6 @@ import org.springframework.validation.annotation.Validated;
 ;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 

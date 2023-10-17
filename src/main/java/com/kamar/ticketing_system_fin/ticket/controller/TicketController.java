@@ -3,8 +3,6 @@ package com.kamar.ticketing_system_fin.ticket.controller;
 import com.kamar.ticketing_system_fin.ticket.data.*;
 import com.kamar.ticketing_system_fin.ticket.entity.Tickets;
 import com.kamar.ticketing_system_fin.ticket.service.TicketService;
-import com.kamar.ticketing_system_fin.ticket.service.utilities.TaskMapper;
-import com.kamar.ticketing_system_fin.ticket.service.utilities.TicketMapper;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;

@@ -33,6 +33,8 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-hateoas:3.1.4")
     // https://mvnrepository.com/artifact/org.modelmapper/modelmapper
     implementation("org.modelmapper:modelmapper:3.1.1")
+    // https://mvnrepository.com/artifact/com.vaadin/vaadin-spring-boot-starter
+    implementation("com.vaadin:vaadin-spring-boot-starter:24.1.12")
     // https://mvnrepository.com/artifact/com.mysql/mysql-connector-j
     implementation("com.mysql:mysql-connector-j:8.1.0")
     compileOnly("org.projectlombok:lombok")
